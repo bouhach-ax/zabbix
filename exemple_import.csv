@@ -1,0 +1,16 @@
+hostname,ip_address,template_names,group_name,tag_service,tag_component,tag_impact,tag_category,tag_sla,tag_environment,tag_owner
+srv-web-01,192.168.1.30,Template OS Linux by Zabbix agent;Template App HTTP Service,Web Servers,E-Commerce,Frontend,high,availability,99.9%,production,WebTeam
+srv-web-02,192.168.1.31,Template OS Linux by Zabbix agent;Template App HTTP Service,Web Servers,E-Commerce,Frontend,high,availability,99.9%,production,WebTeam
+srv-api-01,192.168.1.32,Template OS Linux by Zabbix agent;Template App Java,API Servers,E-Commerce,Backend API,critical,performance,99.95%,production,APITeam
+srv-api-02,192.168.1.33,Template OS Linux by Zabbix agent;Template App Java,API Servers,E-Commerce,Backend API,critical,performance,99.95%,production,APITeam
+srv-db-01,192.168.1.40,Template OS Linux by Zabbix agent;Template App MySQL,Database Servers,E-Commerce,Database,critical,performance,99.99%,production,DBTeam
+srv-db-02,192.168.1.41,Template OS Linux by Zabbix agent;Template App MySQL,Database Servers,E-Commerce,Database,critical,performance,99.99%,production,DBTeam
+srv-crm-web-01,192.168.1.50,Template OS Linux by Zabbix agent;Template App HTTP Service,Web Servers,CRM,Frontend,high,availability,99.9%,production,CRMTeam
+srv-crm-app-01,192.168.1.51,Template OS Linux by Zabbix agent;Template App Java,App Servers,CRM,Application Server,critical,performance,99.95%,production,CRMTeam
+srv-crm-db-01,192.168.1.52,Template OS Linux by Zabbix agent;Template App PostgreSQL,Database Servers,CRM,Database,critical,performance,99.99%,production,DBTeam
+router-edge-01,192.168.1.1,Template OS Linux by Zabbix agent;Template Net Cisco,Network Devices,Network Backbone,Edge Routers,critical,connectivity,99.999%,production,NetworkTeam
+switch-core-01,192.168.1.2,Template OS Linux by Zabbix agent;Template Net Cisco,Network Devices,Network Backbone,Core Switches,critical,connectivity,99.999%,production,NetworkTeam
+lb-01,192.168.1.3,Template OS Linux by Zabbix agent;Template Net Generic,Network Devices,Network Backbone,Load Balancers,high,availability,99.99%,production,NetworkTeam
+monitor-collector-01,192.168.30.10,Template OS Linux by Zabbix agent,Monitoring Servers,Monitoring,Collectors,medium,performance,99.9%,production,MonitoringTeam
+monitor-tsdb-01,192.168.30.20,Template OS Linux by Zabbix agent;Template App Generic,Database Servers,Monitoring,Time Series DB,high,performance,99.95%,production,MonitoringTeam
+monitor-alert-01,192.168.30.30,Template OS Linux by Zabbix agent,App Servers,Monitoring,Alert Manager,high,functionality,99.95%,production,MonitoringTeam
